@@ -1,0 +1,8 @@
+<svg width="600" height="720" viewBox="0 0 600 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="720" rx="48" fill="#E1D9BC"/>
+  <circle cx="300" cy="270" r="120" fill="#ACBAC4"/>
+  <rect x="120" y="390" width="360" height="210" rx="80" fill="#ACBAC4"/>
+  <circle cx="300" cy="260" r="98" fill="#F0F0DB"/>
+  <rect x="160" y="400" width="280" height="170" rx="72" fill="#F0F0DB"/>
+  <text x="300" y="655" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="28" fill="#30364F">Valeria</text>
+</svg>
