@@ -1,11 +1,12 @@
 import { useEffect } from 'react'
+import { motion } from 'framer-motion'
 import './App.css'
-import authorPortrait from './assets/IMAGE 2026-02-01 12:51:57.jpg'
+import authorPortrait from './assets/IMG_7694.PNG'
 
 const guideFor = [
   'nu ai experiență în SMM',
   'vrei să-ți promovezi afacerea online',
-  'vrei reel-uri simple, dar frumoase',
+  'vrei reel-uri simple, dar profesionale',
   'nu ai timp să înveți editare complicată',
 ]
 
@@ -137,7 +138,7 @@ function App() {
           <p className="eyebrow">Cum să faci reel-uri ușor, chiar dacă NU te pricepi la social media</p>
           <h1>
             🎥 Ghid Simplu CapCut
-            <span>Reel-uri curate, rapide și profesioniste direct de pe telefon.</span>
+            <span>Reel-uri curate, rapide și profesionale, direct de pe telefon.</span>
           </h1>
           <p className="lead">
             Acest ghid este creat pentru antreprenori ocupați care vor rezultate clare, fără editare complicată.
@@ -149,6 +150,32 @@ function App() {
                 <li key={item}>{item}</li>
               ))}
             </ul>
+          </div>
+          <div className="cta">
+            <h2 className="cta-title">💡 Atunci, mai jos ai acces gratuit la video.</h2>
+            <motion.a
+              className="cta-button"
+              href="https://t.me/+bgtJ6JMJCvc4ZjQ0"
+              target="_blank"
+              rel="noreferrer"
+              animate={{
+                scale: [1, 1.03, 1],
+                boxShadow: [
+                  '0 16px 28px rgba(23, 28, 56, 0.25)',
+                  '0 22px 36px rgba(23, 28, 56, 0.35)',
+                  '0 16px 28px rgba(23, 28, 56, 0.25)',
+                ],
+              }}
+              transition={{ duration: 2.8, ease: 'easeInOut', repeat: Infinity }}
+              whileHover={{
+                scale: 1.05,
+                boxShadow: '0 26px 42px rgba(23, 28, 56, 0.4)',
+                transition: { duration: 0.25, ease: 'easeInOut' },
+              }}
+              whileTap={{ scale: 0.98 }}
+            >
+              Accesează gratuit
+            </motion.a>
           </div>
         </section>
 

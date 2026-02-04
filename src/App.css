@@ -136,6 +136,43 @@ h1 span {
   font-weight: 600;
 }
 
+.cta {
+  position: relative;
+  display: grid;
+  gap: 14px;
+  max-width: 560px;
+  padding: 20px 22px;
+  border-radius: 20px;
+  color: #3f4762;
+  font-size: 1rem;
+  background: linear-gradient(135deg, #f7f2de 0%, #efe7c9 100%);
+  border: 1px solid rgba(23, 28, 56, 0.08);
+  box-shadow: 0 18px 30px rgba(23, 28, 56, 0.12);
+}
+
+.cta-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.cta-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 22px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #1e2548 0%, #2f3b6b 100%);
+  color: var(--cream);
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 16px 28px rgba(23, 28, 56, 0.25);
+  white-space: nowrap;
+  text-align: center;
+  will-change: transform, box-shadow;
+}
+
 .hero-card {
   grid-column: span 5;
   background: #ffffff;
@@ -263,8 +300,20 @@ h1 span {
     grid-column: span 1;
   }
 
+  .hero-copy {
+    order: 1;
+  }
+
   .hero-card {
-    order: -1;
+    order: 2;
+  }
+
+  .steps {
+    order: 3;
+  }
+
+  .closing {
+    order: 4;
   }
 }
 
