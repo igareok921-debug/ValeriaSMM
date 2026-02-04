@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import './App.css'
-import authorPortrait from './assets/IMG_7694.PNG'
+import authorPortrait from './assets/IMG_7694.png'
 
 const guideFor = [
   'nu ai experiență în SMM',
